@@ -1,0 +1,26 @@
+model = "gpt-5.5"
+model_reasoning_effort = "medium"
+[marketplaces.openai-bundled]
+last_updated = "2026-04-30T13:47:40Z"
+source_type = "local"
+source = '\\?\C:\Users\david\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-04-30T13:48:26Z"
+source_type = "local"
+source = '\\?\C:\Users\david\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+
+[plugins."browser-use@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."github@openai-curated"]
+enabled = true
